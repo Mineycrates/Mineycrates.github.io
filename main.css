@@ -1,0 +1,135 @@
+.header {
+    text-align: center;
+    vertical-align: center;
+    height: 50px;
+
+    
+}
+
+@keyframes posting {
+    from {margin-top: -10px;}
+    to {margin-top: 10px;}
+}
+
+.header h2{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 30px;
+   
+}
+
+.twitSubmit {
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-size: 20px;
+    margin-left: 20px;
+    position: relative;
+    background-color: coral;
+    color: white;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    border-top: 0;
+    border-right: 0;
+    border-radius: 5%;
+    box-shadow: none;
+    border-style: solid;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-color: chocolate;
+    border-bottom-width: 5px ;
+    
+}
+
+.twitSubmit:hover {
+    background-color: #db691d;
+    border-bottom-color:  #b55718;
+}
+
+.twitSubmit:active {
+    margin-top: 2px;
+    background-color: #eb1a58;
+    border-bottom: 0;
+}
+main {
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    
+}
+
+#twitList li {
+    box-sizing: border-box;
+   color: black;
+   list-style: none;
+   height: 50px;
+   width: auto;
+   vertical-align: center;
+   padding: 10px 5px;
+}
+.newAvatar {
+    display: inline-block;
+    background-image: url("./avatar.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.outerPost {
+    margin-top: 10px;
+    display: flex;
+    justify-content: left;
+    width: auto;
+    
+    animation: linear;
+    animation-name: posting;
+    animation-duration: 0.1s;
+    -webkit-animation: linear;
+    -webkit-animation-name: posting;
+    -webkit-animation-duration: 0.1s;
+    
+}
+
+p {
+    color: gray;
+    font-size: 9px;
+
+}
+
+.wrapDiv {
+    font-family: monospace;
+    background-color: whitesmoke;
+    width: auto;
+    padding: 0 10px;
+}
+
+#twitType{
+    display: inline-flex;
+    width: 80%;
+    
+    align-content: center;
+    align-items: center;
+}
+.btn-div {
+    background-color: aquamarine;
+   
+}
+
+#twitMessage {
+    position: relative;
+    border-radius: 5%;
+    border: 2px solid orange;
+    font-size: 15px;
+}
+#twitList {
+    display: block;
+    float: left;
+}
+
+#twitSpace {
+    margin: auto;
+    width: 50%;
+    border: 1px solid orange;
+   
+}
